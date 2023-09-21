@@ -1,0 +1,415 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    background-color: #4CC2E6;
+    font-size: 23px;
+    padding: 12px;
+    justify-content: space-around;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
+
+.h-one h1 {
+    text-align: center;
+    margin: 12%;
+    font-size: 60px;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px 10px;
+    padding: 0%;
+    gap: 5px;
+}
+#about{
+    text-align: center;
+    font-size: 40px;
+    color: rgba(152, 15, 243, 0.973);
+}
+.para {
+    color: whitesmoke;
+    border-radius: 6px;
+    width: 100%;
+    text-align: center;
+
+    padding: 15px;
+}
+
+.para p {
+    align-items: center;
+    background-color: rgba(17, 101, 197, 0.822);
+    width: 99%;
+    padding: 25px;
+}
+
+#product{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 13%;
+    color: rgba(152, 15, 243, 0.973);
+}
+
+.container .sec-container {
+    border: 3px solid black;
+    margin: 10px 2px;
+    padding: 20px 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.container .third-container {
+    border: 0px solid black;
+    margin: 10px 2px;
+    padding: 20px 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#one img {
+    height: 22vh;
+    width: 50%;
+}
+
+#two img {
+    height: 20vh;
+    width: 80%;
+}
+
+#three img {
+    height: 20vh;
+    width: 50%;
+}
+
+#four img {
+    height: 28vh;
+    width: 80%;
+}
+
+#five img {
+    height: 25vh;
+    width: 50%;
+}
+
+#six img {
+    height: 25vh;
+    width: 50%;
+}
+
+#seven img {
+    height: 30vh;
+    width: 80%;
+}
+
+#eight img {
+    height: 25vh;
+    width: 70%;
+}
+
+#nine img {
+    height: 30vh;
+    width: 80%;
+}
+
+.talk {
+    margin-top: 9%;
+    text-align: center;
+}
+
+.talk h2 {
+    font-size: 50px;
+    margin-bottom: 4%;
+}
+
+.talk h3 {
+    font-size: 30px;
+}
+
+.whatsApp {
+    text-align: center;
+}
+
+.whatsApp h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2%;
+}
+
+.register {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.helpline {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.button {
+    text-align: center;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    padding: 17px;
+    font-size: 15px;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.footer {
+    background-color: gray;
+    padding-bottom: 2%;
+}
+
+.footer h2 {
+    text-align: center;
+
+}
+
+.footer p {
+    margin-top: 1%;
+}
+
+
+@media(max-width: 850px) {
+    .h-one h1 {
+        font-size: 50px;
+        margin-top: 25%;
+        margin-bottom: 45%;
+    }
+}
+
+@media(max-width: 800px) {
+    .container .sec-container {
+        margin: 7px 2px;
+        padding: 15px 15px;
+    }
+
+    .container .third-container {
+        margin: 7px 2px;
+        padding: 15px 15px;
+    }
+}
+
+@media(max-width: 700px) {
+    .h-one h1 {
+        font-size: 40px;
+    }
+    .container .sec-container{
+        margin: 6px 2px;
+        padding: 12px 12px;
+    }
+    .container .third-container {
+        margin: 6px 2px;
+        padding: 12px 12px;
+    }
+}
+
+@media(max-width: 650px){
+    .h-one h1 {
+        font-size: 37px;
+    }
+    .container .sec-container{
+        margin: 5px 2px;
+        padding: 10px 10px;
+    }
+    .container .third-container {
+        margin: 5px 2px;
+        padding: 10px 10px;
+    }
+    .talk h3 {
+        font-size: 25px;
+    }
+    .whatsApp h3 {
+        font-size: 25px;
+    }
+    button {
+        padding: 13px;
+    }
+    .whatsApp h3 {
+        margin-top: 5%;
+    }
+    .button{
+        margin-bottom: 5%;
+    }
+}
+
+@media(max-width: 550px){
+    #one img {
+        height: 18vh;
+        width: 60%;
+    }
+    
+    #two img {
+        height: 18vh;
+        width: 90%;
+    }
+    
+    #three img {
+        height: 18vh;
+        width: 60%;
+    }
+    
+    #four img {
+        height: 25vh;
+        width: 90%;
+    }
+    
+    #five img {
+        height: 22vh;
+        width: 60%;
+    }
+    
+    #six img {
+        height: 22vh;
+        width: 60%;
+    }
+    
+    #seven img {
+        height: 25vh;
+        width: 90%;
+    }
+    
+    #eight img {
+        height: 22vh;
+        width: 80%;
+    }
+    
+    #nine img {
+        height: 25vh;
+        width: 90%;
+    }
+    .talk h2 {
+        font-size: 38px;
+        margin-bottom: 5%;
+    }
+    #product{
+        font-size: 38px;
+    }
+    #about{
+        font-size: 38px;
+    }
+}
+
+@media(max-width: 500px){
+    #one img {
+        height: 16vh;
+        width: 65%;
+    }
+    
+    #two img {
+        height: 16vh;
+        width: 95%;
+    }
+    
+    #three img {
+        height: 16vh;
+        width: 65%;
+    }
+    
+    #four img {
+        height: 22vh;
+        width: 95%;
+    }
+    
+    #five img {
+        height: 20vh;
+        width: 65%;
+    }
+    
+    #six img {
+        height: 20vh;
+        width: 65%;
+    }
+    
+    #seven img {
+        height: 20vh;
+        width: 95%;
+    }
+    
+    #eight img {
+        height: 20vh;
+        width: 85%;
+    }
+    
+    #nine img {
+        height: 22vh;
+        width: 95%;
+    }
+
+    .container{
+        margin-bottom: 3%;
+    }
+}
+
+@media(max-width: 450px){
+    nav li a{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 400px){
+    .h-one h1{
+        font-size: 30px;
+    }
+    #one img {
+        height: 13vh;
+        width: 70%;
+    }
+    
+    #two img {
+        height: 13vh;
+        width: 99%;
+    }
+    
+    #three img {
+        height: 13vh;
+        width: 70%;
+    }
+    
+    #four img {
+        height: 19vh;
+        width: 99%;
+    }
+    
+    #five img {
+        height: 17vh;
+        width: 70%;
+    }
+    
+    #six img {
+        height: 17vh;
+        width: 69%;
+    }
+    
+    #seven img {
+        height: 16vh;
+        width: 99%;
+    }
+    
+    #eight img {
+        height: 20vh;
+        width: 85%;
+    }
+    
+    #nine img {
+        height: 18vh;
+        width: 99%;
+    }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="https://kit.fontawesome.com/54cea40650.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </div>
+
+                <div class="circle">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+            </nav>
+
+            <img src="/Music Player/images/dhvani-bhanusha.jpg" alt="dhvani-bhanusha" class="song-img">
+            <h1>Vaaste</h1>
+            <p>Vaaste Song: ft.Dhvani Bhanushali</p>
+
+            <audio id="song">
+                <source src="/Music Player/Music/Vaaste_64(PagalWorld.com.se).mp3" type="audio/mpeg">
+            </audio>
+
+            <input type="range" value="0" id="progress">
+
+            <div class="controls">
+                <div><i class="fa fa-backward" aria-hidden="true"></i></div>
+                <div onclick="PlayPause()"><i class="fa fa-play" id="ctrlIcon" aria-hidden="true"></i></div>
+                <div><i class="fa fa-forward" aria-hidden="true"></i></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
